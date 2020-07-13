@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("./img/papelDeParedeComMascara.jpg");
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    background: white;
+    width: 350px;
+    height: 350px;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho{
+    margin: 15px;
+    text-align: center;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+h1{
+    margin: 15px;
+}
+
+.corpoInput{
+    margin: 30px;
+    text-align: center;
+}
+
+.inputEmail{
+    border: 0;
+    border-bottom: 2px solid #5CADC0;
+    width: 80%;
+}
+.inputEmail:focus{
+    border-bottom: 2px solid #E41F44;
+    transition:all 0.3s ease;
+}
+
+.inputSenha{
+    border: 0;
+    border-bottom: 2px solid #5CADC0;
+    width: 80%;
+}
+.inputSenha:focus{
+    border-bottom: 2px solid #E41F44;
+    transition:all 0.3s ease;
+}
+
+
+.botao{
+    border: 0;
+    background-color: #5CADC0;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 16px;
+    width: 130px;
+    height: 25px;
+    cursor: pointer;
+    transition:all 0.3s ease;
+
+}
+.botao:hover{
+    background-color: #E41F44;
+    width: 120px;
+    transition:all 0.3s ease;
+    border-radius: 10px;
+
+}
+
+p{
+    font-size: 16px;
+}
+
+.criarConta{
+    color: #E41F44;
+    text-decoration: none;
+}
+.criarConta:hover{
+    color: #5CADC0;
+    transition:all 0.3s ease;
+}
