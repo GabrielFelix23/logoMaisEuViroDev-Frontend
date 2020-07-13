@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url("./img/papelDeParedeComMascara.jpg");
+    background-image: url("./img/papelDeParede.jpg");
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -16,11 +16,11 @@ body{
 section{
     background: white;
     width: 350px;
-    height: 350px;
+    height: 360px;
     border-radius: 5px;
     margin: auto;
     padding: 10px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .cabecalho{
@@ -36,6 +36,8 @@ section{
 
 h1{
     margin: 15px;
+    font-family: 'PT Sans', sans-serif;
+    font-style: italic;
 }
 
 .corpoInput{
@@ -63,8 +65,7 @@ h1{
     transition:all 0.3s ease;
 }
 
-
-.botao{
+.botaoLogin{
     border: 0;
     background-color: #5CADC0;
     border-radius: 5px;
@@ -72,19 +73,38 @@ h1{
     color: white;
     font-size: 16px;
     margin-top: 30px;
+    margin-bottom: 25px;
+    width: 130px;
+    height: 25px;
+    cursor: pointer;
+    transition:all 0.3s ease;
+}
+.botaoLogin:hover{
+    background-color: #E41F44;
+    width: 120px;
+    transition:all 0.3s ease;
+    border-radius: 10px;
+}
+
+.botaoCriar{
+    border: 0;
+    background-color: #5CADC0;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin-top: 25px;
     margin-bottom: 16px;
     width: 130px;
     height: 25px;
     cursor: pointer;
     transition:all 0.3s ease;
-
 }
-.botao:hover{
+.botaoCriar:hover{
     background-color: #E41F44;
     width: 120px;
     transition:all 0.3s ease;
     border-radius: 10px;
-
 }
 
 p{
